@@ -1,8 +1,12 @@
 import Image from "next/image";
-import styles from "./page.module.scss";
+import LoginPage from "./components/pages/login/LoginPage";
+
+
 
 export default function Home() {
   return (
-    <div>Hello</div>
+    <div>
+      <LoginPage/>
+    </div>
   );
 }
